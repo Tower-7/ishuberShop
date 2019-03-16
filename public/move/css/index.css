@@ -1,0 +1,12 @@
+.search{width: 100%;height:2rem;font-size: 0;}
+.search .pic {display: inline-block; width: 20%;text-align:center;line-height: 2rem;}
+.search .pic img {width: 1.3rem;vertical-align: middle;}
+.search .txt {display: inline-block;width: 80%;}
+.search .txt input{ width: calc(80% - 2px);height: 1.2rem;border-radius: 1.2rem;padding-left: 5%; outline: none;border:none;background: #ddd; vertical-align: middle}
+.goods ul {width: 95%;margin: 0 auto;}
+.goods .list {width: 100%;position: relative;margin-top: 1rem;}
+.goods .list .pic{width: 100%;}
+.goods .list .intro {position: absolute;top: 50%;left: 50%; transform: translate(-50%);color: #fff;text-align: center;}
+
+.goods .list .intro p {margin-top: 5px;}
+.goods .list .intro img {width: 1rem;margin-top: 5px;}
