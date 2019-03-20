@@ -5,4 +5,8 @@ module.exports = {
             
         })
     },
+    // 详情页
+    detail: async ctx => {
+        await ctx.render('move/detail')
+    }
 }

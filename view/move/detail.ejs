@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="/lib/css/swiper.min.css">
+  <link rel="stylesheet" href="move/css/init.css">
+  <link rel="stylesheet" href="move/css/detail.css">
+
+</head>
+<body>
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+          <img width="100%" src="move/img/goods1.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+            <img width="100%" src="move/img/goods1.jpg" alt="">
+        </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+  <section class="title">
+    <h2>水墨折扇</h2>   
+    <b>￥500</b>    
+  </section>
+  <section class="artist">
+    <div class="line"></div>
+    <div class="content">
+        <ul>
+            <li class="pic"></li>
+            <li class="text">
+                <h3>葵酱</h3>
+                <p>一个集才华与美貌与一身的女子</p>
+            </li>
+        </ul>
+    </div>
+  </section>
+  <section class="detail">
+      <ul>
+          <li><img src="move/img/goods1.jpg" alt=""></li>
+          <li><img src="move/img/goods2.jpg" alt=""></li>
+          <li><img src="move/img/goods3.jpg" alt=""></li>
+      </ul>
+  </section>
+
+  <!-- Swiper JS -->
+  <script src="https://www.swiper.com.cn/dist/js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        
+      },
+    });
+  </script>
+</body>
+</html>

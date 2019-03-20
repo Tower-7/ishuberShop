@@ -1,0 +1,34 @@
+.swiper-container {
+    width: 100%;
+    height: 300px;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+.title h2{font-size: 16px;padding-left: 20px;margin-top:20px;line-height: 25px}
+.title b{font-size: 14px;padding-left: 20px;line-height: 25px}
+.artist .line{margin-top: 20px; width: 100%;height: 10px;background-color: #999}
+.artist .content{width: 100%;height: 70px;background-image: url(../img/goods1.jpg);background-size: 100%}
+.artist .content ul {position: relative; width: 100%;height: 70px;background-color: rgba(0, 0, 0, 0.8)}
+.artist .content .pic{position: absolute; width: 50px;height: 50px;left: 20px;top: 10px;background-color: #fff;border-radius: 50%;background: url(../img/artist.jpg);background-size: 100%;}
+.artist .content .text{position: absolute; left: 90px;top: 10px;color: #fff;}
+.artist .content h3{font-size: 16px;line-height: 30px;}
+.artist .content p{font-size: 12px;}
+.detail{width:100%;margin-top: 20px;margin-bottom: 40px;}
+.detail img{width:100%;}
